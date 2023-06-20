@@ -27,7 +27,7 @@ This script is designed to help set up the position of anchors for Thai consonan
 
 This script requires the ezui, fontPens, and fontParts.world Python libraries, as well as RoboFont app. Before using this script, you would rather change **Thai glyphs name** to align with the script.
 
-Robofont: change the name from 
+Robofont: change the name from [this script](rbf_glyph-rename_glyphbrowser-to-th.py)
 
 
 ## Note
