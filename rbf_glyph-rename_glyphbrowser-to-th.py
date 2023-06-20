@@ -1,3 +1,4 @@
+##This script will re-name Thai glyphs in Robofont which was added glyphs by the plug-in called "GlyphBrowser" https://github.com/LettError/glyphBrowser
 myFont = CurrentFont()
 #1
 oldN = ("thai:kokai",
