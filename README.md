@@ -39,4 +39,5 @@ Robofont: change the name from [rbf_glyph-rename_glyphbrowser-to-th.py](rbf_glyp
 
 ## Note
 
-The script is specifically designed for Thai characters and may not function properly with other types of characters. Ensure your font has the necessary glyphs (such as "th-bobaimai", "th-popla", "th-saraii", etc.) before running the script.
+- The script is specifically designed for Thai characters and may not function properly with other types of characters. Ensure your font has the necessary glyphs (such as "th-bobaimai", "th-popla", "th-saraii", etc.) before running the script.
+- The code is relatively "super long", it is still a work in progress. 
