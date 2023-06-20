@@ -10,6 +10,11 @@ This script is designed to help set up the position of anchors for Thai consonan
 - Offer functionality to calculate new anchor positions based on user-defined parameters.
 
 ![Image of the UI](UI_Screenshot.png "UI screen shot")
+![What does the input of the y coordinate do?](Thai-MarktoMark-31.jpeg "What does the input of the y coordinate do?")
+![Example after running the script for consonant](Thai-MarktoMark-32.jpeg "Example after running the script for consonant")
+![Mark to base](Thai-MarktoBase.png "Mark to base")
+![Mark to mark](Thai-MarktoMark.png "Mark to mark")
+
 
 ## How to Use
 
