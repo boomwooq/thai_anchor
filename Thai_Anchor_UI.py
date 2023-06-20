@@ -112,6 +112,7 @@ class DemoController(ezui.WindowController):
             color_8 = (0.607, 0.980, 1, 1)
             color_9 = (1, 0.857, 0, 1)
             color_10 = (0.331, 0.481,1, 0.8)
+            color_red = (1, 0.361, 0.361, 1)
 
             #set y or height value for margin pen & guideline
             y_value_top = bor_height
@@ -192,7 +193,7 @@ class DemoController(ezui.WindowController):
                 g.appendAnchor ("bottom", (x_value_bottom+x_adjust_bottom, y_value_bottom))
 
             #top_borHeight, bottom_curve_baseline
-            group_1= ["th-bobaimai", "th-sorusi", "th-moma", "th-ngongu", "th-khokhai", "th-khokhuat", "th-khorakhang", "th-yoyak", "th-chochoe", "th-yoying.less", "th-thophuthao"]
+            group_1= ["th-bobaimai", "th-moma", "th-ngongu", "th-khokhai", "th-khokhuat", "th-khorakhang", "th-yoyak", "th-chochoe", "th-yoying.less", "th-thophuthao"]
             for glyph_name in group_1: 
                 g = f[glyph_name]
                 th_anchor_top = margin_value_middle(g, y_value_middle_1)
@@ -203,6 +204,14 @@ class DemoController(ezui.WindowController):
                     anchor_function(g, th_anchor_top, th_anchor_bottom, bor_height, baseline,0 , 0)
                 g.markColor = color_1
             print (margin_value_top(g, report = True))
+
+            group_1_5 = ["th-sorusi"]
+            for glyph_name in group_1_5:
+                g = f[glyph_name]
+                th_anchor_top = margin_value_top(g)
+                th_anchor_bottom = margin_value_middle(g, y_value_middle_2)
+                anchor_function(g, th_anchor_top, th_anchor_bottom, bor_height, baseline, 0, -10)
+                g.markColor = color_red
 
             #top_borHeight_curve, bottom_baseline
             #middle_1
